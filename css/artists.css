@@ -1,0 +1,41 @@
+.artist__wrapper {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+}
+
+.artist__img {
+    width: 100%;
+}
+
+.artist__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 24px;
+    position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+    .artist__wrapper {
+        flex-direction: row;
+        column-gap: 16px;
+        justify-content: space-around;
+    }
+
+    .artist__info {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .artist__wrapper {
+        justify-content: space-between;
+    }
+
+    .artist__info {
+        padding: 24px;
+    }
+}

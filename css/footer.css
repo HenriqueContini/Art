@@ -1,0 +1,38 @@
+.footer {
+    text-align: center;
+}
+
+.footer__menu {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu__item {
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu__item__link {
+    text-decoration: none;
+}
+
+.menu__item__link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--black);
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__menu {
+        padding: 0;
+        column-gap: 40px;
+        align-items: center;
+    }
+}

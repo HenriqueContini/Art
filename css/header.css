@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__input {
+    display: none;
+    background-color: var(--light-gray);
+    border: none;
+    border-radius: 4px;
+    padding: 0 24px;
+    background-image: url(../src/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-origin: content-box;
+}
+
+.header__input:focus {
+    outline-color: var(--blue);
+}
+
+.header>.button__blue {
+    max-width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__input {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header__input {
+        width: 40%;
+    }
+}
