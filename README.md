@@ -2,7 +2,7 @@
 Este é o resultado do desafio 26 da Codelândia.
 
 ### 🖥️ Site 
-Para visualizar o site, <a href="#">clique aqui</a>
+Para visualizar o site, <a href="https://henriquecontini.github.io/Art/">clique aqui</a>
 
 ### 🏅 Objetivo
 O objetivo do desafio era criar um site, de banco de imagens, que fosse totalmente responsivo.
